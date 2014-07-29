@@ -1,0 +1,9 @@
+Building Czecoin
+
+See doc/readme-qt.rst for instructions on building Czecoin QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Czecoin.
+
+See doc/build-*.txt for instructions on building Czecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Czecoin.
