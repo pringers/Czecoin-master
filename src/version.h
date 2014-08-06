@@ -34,11 +34,11 @@ static const int DATABASE_VERSION = 70608;
 static const int PROTOCOL_VERSION = 70113;
 
 // earlier versions not supported as of Feb 2012, and are disconnected
-static const int MIN_PROTO_VERSION = 209;
+static const int MIN_PROTO_VERSION = 70020;
 
 // nTime field added to CAddress, starting with this version;
 // if possible, avoid requesting addresses nodes older than this
-static const int CADDR_TIME_VERSION = 31402;
+static const int CADDR_TIME_VERSION = 70020;
 
 // only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 70020;
