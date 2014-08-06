@@ -119,15 +119,13 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
     // Create coinbase tx
     CTransaction txNew;
     txNew.vin.resize(1);
-    txNew.vin[0].prevout.SetNull();
-    CBitcoinAddress address(!fTestNet ? FOUNDATION : FOUNDATION_TEST);
-    txNew.vout.resize(2);
+    txNew.vin[0].prevout.SetNull(); 
+    txNew.vout.resize(1);
 
     if (!fProofOfStake)
     {
         CReserveKey reservekey(pwallet);
         txNew.vout[0].scriptPubKey.SetDestination(reservekey.GetReservedKey().GetID());
-        txNew.vout[1].scriptPubKey.SetDestination(address.Get());
     }
     else
     {
