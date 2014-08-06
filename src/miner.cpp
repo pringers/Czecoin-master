@@ -120,7 +120,7 @@ CBlock* CreateNewBlock(CWallet* pwallet, bool fProofOfStake, int64_t* pFees)
     CTransaction txNew;
     txNew.vin.resize(1);
     txNew.vin[0].prevout.SetNull(); 
-    txNew.vout.resize(1);
+    txNew.vout.resize(2);
 
     if (!fProofOfStake)
     {
