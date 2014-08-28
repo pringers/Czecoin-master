@@ -1679,8 +1679,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 hack</source>
-        <translation>123.456 hack {0.00 ?}</translation>
+        <source>0.00 CZECO</source>
+        <translation>123.456 CZECO {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1749,8 +1749,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 hack</source>
-        <translation>123.456 hack</translation>
+        <source>123.456 CZECO</source>
+        <translation>123.456 CZECO</translation>
     </message>
     <message>
         <location line="+31"/>
