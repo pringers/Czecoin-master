@@ -349,6 +349,21 @@ Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v Open
         <translation>Úprava seznamu uložených adres.</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>View statistics</source>
+        <translation>Zobrazit statistiky.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Explore the BlockChain</source>
+        <translation>Prohlížeč bloků.</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>View chat</source>
+        <translation>Zobrazit chat.</translation>
+    </message>
+    <message>
         <location line="-13"/>
         <source>&amp;Receive coins</source>
         <translation>&amp;Přijmout mince</translation>
@@ -673,7 +688,7 @@ Adresa: %4
     <message>
         <location line="+18"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Nepodařilo se analyzovat URI! Důvodem může být neplatná Uroová adresa nebo poškozené parametry URI.</translation>
+        <translation>Peněženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálně &lt;b&gt;odemčená pro sázky&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -3009,7 +3024,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Czecoin Alert&quot; admin@foo.
         <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
 %s
 Je vhodné použít následující náhodné heslo:
-rpcuser=Urorpc
+rpcuser=Czecoinrpc
 rpcpassword=%s
 (není potřeba si ho pamatovat)
 rpcuser a rpcpassword NESMÍ být stejné.

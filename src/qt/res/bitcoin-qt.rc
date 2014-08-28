@@ -22,7 +22,7 @@ BEGIN
             VALUE "FileDescription",    "Czecoin-Qt (OSS GUI client for Czecoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "Czecoin-qt"
-            VALUE "LegalCopyright",     "2014 The Czecoin developers"
+            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The PPCoin developers, 2014 The Czecoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "Czecoin-qt.exe"
             VALUE "ProductName",        "Czecoin-Qt"
