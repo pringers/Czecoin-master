@@ -1,6 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2014 The Czecoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -190,7 +189,7 @@ bool GetIPFromIRC(SOCKET hSocket, string strMyName, CNetAddr& ipRet)
 void ThreadIRCSeed(void* parg)
 {
     // Make this thread recognisable as the IRC seeding thread
-    RenameThread("Czecoin-ircseed");
+    RenameThread("FirstZimbabweCoin-ircseed");
 
     try
     {
@@ -303,16 +302,16 @@ void ThreadIRCSeed2(void* parg)
         }
 
         if (fTestNet) {
-            Send(hSocket, "JOIN #CzecoinTEST\r");
-            Send(hSocket, "WHO #CzecoinTEST\r");
+            Send(hSocket, "JOIN #FirstZimbabweCoinTEST\r");
+            Send(hSocket, "WHO #FirstZimbabweCoinTEST\r");
         } else {
-            // randomly join #Czecoin00-#Czecoin05
+            // randomly join #FirstZimbabweCoin00-#FirstZimbabweCoin05
             //int channel_number = GetRandInt(5);
             int channel_number = 0;
             // Channel number is always 0 for initial release
             //int channel_number = 0;
-            Send(hSocket, strprintf("JOIN #CZECO%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #CZECO%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("JOIN #FirstZimbabweCoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #FirstZimbabweCoin%02d\r", channel_number).c_str());
         }
 
         int64_t nStart = GetTime();

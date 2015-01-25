@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter Czecoin signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter FirstZimbabweCoin signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

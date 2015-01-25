@@ -60,7 +60,7 @@ void Serveur::connected()
 
 void Serveur::joins()
 {
-    join("#CzecoinX13");
+    join("#poloniex");
 }
 
 void Serveur::readServeur()

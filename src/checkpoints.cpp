@@ -1,5 +1,4 @@
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2014 The Czecoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,10 +24,7 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, hashGenesisBlock )
-//        ( 265, CheckBlock1 )
-
-        
+        ( 0,      hashGenesisBlock )
     ;
 
     // TestNet has no checkpoints
@@ -67,7 +63,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // Czecoin: synchronized checkpoint (centrally broadcasted)
+    // ppcoin: synchronized checkpoint (centrally broadcasted)
     uint256 hashSyncCheckpoint = 0;
     uint256 hashPendingCheckpoint = 0;
     CSyncCheckpoint checkpointMessage;
@@ -75,7 +71,7 @@ namespace Checkpoints
     uint256 hashInvalidCheckpoint = 0;
     CCriticalSection cs_hashSyncCheckpoint;
 
-    // Czecoin: get last synchronized checkpoint
+    // ppcoin: get last synchronized checkpoint
     CBlockIndex* GetLastSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -86,7 +82,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // Czecoin: only descendant of current sync-checkpoint is allowed
+    // ppcoin: only descendant of current sync-checkpoint is allowed
     bool ValidateSyncCheckpoint(uint256 hashCheckpoint)
     {
         if (!mapBlockIndex.count(hashSyncCheckpoint))
@@ -239,7 +235,7 @@ namespace Checkpoints
         return false;
     }
 
-    // Czecoin: reset synchronized checkpoint to last hardened checkpoint
+    // ppcoin: reset synchronized checkpoint to last hardened checkpoint
     bool ResetSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -350,12 +346,12 @@ namespace Checkpoints
     }
 }
 
-// Czecoin: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "04a18357665ed7a802dcf252ef528d3dc786da38653b51d1ab8e9f4820b55aca807892a056781967315908ac205940ec9d6f2fd0a85941966971eac7e475a27826";
+// ppcoin: sync-checkpoint master key
+const std::string CSyncCheckpoint::strMasterPubKey = "04ba79eba91608decc02d41a64223b5ef5ac2045c8b1706f7603bcff1251228edb47bf140f009a9598345d9a3900b42ded70f6eddfa5bd601926685c218a0e4611";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
-// Czecoin: verify signature of sync-checkpoint message
+// ppcoin: verify signature of sync-checkpoint message
 bool CSyncCheckpoint::CheckSignature()
 {
     CKey key;
@@ -370,7 +366,7 @@ bool CSyncCheckpoint::CheckSignature()
     return true;
 }
 
-// Czecoin: process synchronized checkpoint
+// ppcoin: process synchronized checkpoint
 bool CSyncCheckpoint::ProcessSyncCheckpoint(CNode* pfrom)
 {
     if (!CheckSignature())

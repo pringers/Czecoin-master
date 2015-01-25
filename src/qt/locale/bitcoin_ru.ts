@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Czecoin</source>
-        <translation>О Czecoin</translation>
+        <source>About FirstZimbabweCoin</source>
+        <translation>О FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Czecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Czecoin&lt;/b&gt; версия</translation>
+        <source>&lt;b&gt;FirstZimbabweCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;FirstZimbabweCoin&lt;/b&gt; версия</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Czecoin developers</source>
+Copyright © 2014 The FirstZimbabweCoin developers</source>
         <translation>Все права защищены © 2009-2014 Разработчики Bitcoin
 Все права защищены © 2012-2014 Разработчики NovaCoin
-Все права защищены © 2014 Разработчики Czecoin</translation>
+Все права защищены © 2014 Разработчики FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Czecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your FirstZimbabweCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Это Ваши адреса для получения платежей. Вы можете дать разные адреса отправителям, чтобы отслеживать, кто именно вам платит.</translation>
     </message>
     <message>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Czecoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Czecoin</translation>
+        <source>Sign a message to prove you own a FirstZimbabweCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Czecoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Czecoin</translation>
+        <source>Verify a message to ensure it was signed with a specified FirstZimbabweCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,7 +263,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Czecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>FirstZimbabweCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши монеты от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Czecoin</source>
-        <translation>Показать информацию о Czecoin&apos;е</translation>
+        <source>Show information about FirstZimbabweCoin</source>
+        <translation>Показать информацию о FirstZimbabweCoin&apos;е</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Czecoin address</source>
-        <translation>Отправить монеты на указанный адрес Czecoin</translation>
+        <source>Send coins to a FirstZimbabweCoin address</source>
+        <translation>Отправить монеты на указанный адрес FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Czecoin</source>
-        <translation>Изменить параметры конфигурации Czecoin</translation>
+        <source>Modify configuration options for FirstZimbabweCoin</source>
+        <translation>Изменить параметры конфигурации FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>Czecoin</source>
-        <translation>Czecoin</translation>
+        <source>FirstZimbabweCoin</source>
+        <translation>FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Czecoin</source>
-        <translation>&amp;О Czecoin</translation>
+        <source>&amp;About FirstZimbabweCoin</source>
+        <translation>&amp;О FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,12 +539,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Czecoin client</source>
-        <translation>Czecoin клиент</translation>
+        <source>FirstZimbabweCoin client</source>
+        <translation>FirstZimbabweCoin клиент</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Czecoin network</source>
+        <source>%n active connection(s) to FirstZimbabweCoin network</source>
         <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform></translation>
     </message>
     <message>
@@ -584,12 +584,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About Czecoin card</source>
-        <translation>О карте Czecoin</translation>
+        <source>About FirstZimbabweCoin card</source>
+        <translation>О карте FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Czecoin card</source>
+        <source>Show information about FirstZimbabweCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,8 +669,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Czecoin address or malformed URI parameters.</source>
-        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Czecoin или неправильными параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid FirstZimbabweCoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом FirstZimbabweCoin или неправильными параметрами URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Czecoin can no longer continue safely and will quit.</source>
-        <translation>Произошла неисправимая ошибка. Czecoin не может безопасно продолжать работу и будет закрыт.</translation>
+        <source>A fatal error occurred. FirstZimbabweCoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. FirstZimbabweCoin не может безопасно продолжать работу и будет закрыт.</translation>
     </message>
 </context>
 <context>
@@ -1049,8 +1049,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Czecoin address.</source>
-        <translation>Введённый адрес &quot;%1&quot; не является правильным Czecoin-адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FirstZimbabweCoin address.</source>
+        <translation>Введённый адрес &quot;%1&quot; не является правильным FirstZimbabweCoin-адресом.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1068,8 +1068,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Czecoin-Qt</source>
-        <translation>Czecoin-Qt</translation>
+        <source>FirstZimbabweCoin-Qt</source>
+        <translation>FirstZimbabweCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1141,13 +1141,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Czecoin after logging in to the system.</source>
-        <translation>Автоматически запускать Czecoin после входа в систему</translation>
+        <source>Automatically start FirstZimbabweCoin after logging in to the system.</source>
+        <translation>Автоматически запускать FirstZimbabweCoin после входа в систему</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Czecoin on system login</source>
-        <translation>&amp;Запускать Czecoin при входе в систему</translation>
+        <source>&amp;Start FirstZimbabweCoin on system login</source>
+        <translation>&amp;Запускать FirstZimbabweCoin при входе в систему</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1166,8 +1166,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Czecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для Czecoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+        <source>Automatically open the FirstZimbabweCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для FirstZimbabweCoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1176,8 +1176,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Czecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Подключаться к сети Czecoin через прокси SOCKS (например, при подключении через Tor).</translation>
+        <source>Connect to the FirstZimbabweCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Подключаться к сети FirstZimbabweCoin через прокси SOCKS (например, при подключении через Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1251,8 +1251,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Czecoin.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска Czecoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FirstZimbabweCoin.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска FirstZimbabweCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1266,8 +1266,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Czecoin addresses in the transaction list or not.</source>
-        <translation>Показывать ли адреса Czecoin в списке транзакций.</translation>
+        <source>Whether to show FirstZimbabweCoin addresses in the transaction list or not.</source>
+        <translation>Показывать ли адреса FirstZimbabweCoin в списке транзакций.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1313,8 +1313,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Czecoin.</source>
-        <translation>Эта настройка вступит в силу после перезапуска Czecoin</translation>
+        <source>This setting will take effect after restarting FirstZimbabweCoin.</source>
+        <translation>Эта настройка вступит в силу после перезапуска FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1332,8 +1332,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Czecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Czecoin после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FirstZimbabweCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью FirstZimbabweCoin после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1548,8 +1548,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Czecoin-Qt help message to get a list with possible Czecoin command-line options.</source>
-        <translation>Показать помощь по Czecoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
+        <source>Show the FirstZimbabweCoin-Qt help message to get a list with possible FirstZimbabweCoin command-line options.</source>
+        <translation>Показать помощь по FirstZimbabweCoin-Qt, чтобы получить список доступных параметров командной строки.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1568,13 +1568,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Czecoin - Debug window</source>
-        <translation>Czecoin - Окно отладки</translation>
+        <source>FirstZimbabweCoin - Debug window</source>
+        <translation>FirstZimbabweCoin - Окно отладки</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Czecoin Core</source>
-        <translation>Ядро Czecoin</translation>
+        <source>FirstZimbabweCoin Core</source>
+        <translation>Ядро FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1583,8 +1583,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Czecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл Czecoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
+        <source>Open the FirstZimbabweCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл FirstZimbabweCoin из текущего каталога данных. Это может занять несколько секунд для больших лог-файлов.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1593,8 +1593,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Czecoin RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль Czecoin.</translation>
+        <source>Welcome to the FirstZimbabweCoin RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль FirstZimbabweCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1667,7 +1667,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 CZECO</source>
+        <source>0.00 FZC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1737,8 +1737,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 CZECO</source>
-        <translation>123.456 CZECO</translation>
+        <source>123.456 FZC</source>
+        <translation>123.456 FZC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1752,8 +1752,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите Czecoin-адрес (например CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите FirstZimbabweCoin-адрес (например ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1852,7 +1852,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Czecoin address</source>
+        <source>WARNING: Invalid FirstZimbabweCoin address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1896,8 +1896,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Адрес получателя платежа (например CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Адрес получателя платежа (например ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1926,8 +1926,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите Czecoin-адрес (например CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите FirstZimbabweCoin-адрес (например ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1950,8 +1950,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Адрес, которым вы хотите подписать сообщение  (напр. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Адрес, которым вы хотите подписать сообщение  (напр. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1987,8 +1987,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Czecoin address</source>
-        <translation>Подписать сообщение, чтобы доказать владение адресом Czecoin</translation>
+        <source>Sign the message to prove you own this FirstZimbabweCoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2014,13 +2014,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Адрес, которым было подписано сообщение (напр. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Адрес, которым было подписано сообщение (напр. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Czecoin address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Czecoin</translation>
+        <source>Verify the message to ensure it was signed with the specified FirstZimbabweCoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2030,8 +2030,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Введите адрес Czecoin (напр. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Введите адрес FirstZimbabweCoin (напр. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2040,8 +2040,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Czecoin signature</source>
-        <translation>Введите подпись Czecoin</translation>
+        <source>Enter FirstZimbabweCoin signature</source>
+        <translation>Введите подпись FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2611,7 +2611,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Czecoin version</source>
+        <source>FirstZimbabweCoin version</source>
         <translation>Версия</translation>
     </message>
     <message>
@@ -2621,8 +2621,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Czecoind</source>
-        <translation>Отправить команду на -server или Czecoind</translation>
+        <source>Send command to -server or FirstZimbabweCoind</source>
+        <translation>Отправить команду на -server или FirstZimbabweCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2642,13 +2642,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Czecoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: Czecoin.conf)</translation>
+        <source>Specify configuration file (default: FirstZimbabweCoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: FirstZimbabweCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Czecoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: Czecoind.pid)</translation>
+        <source>Specify pid file (default: FirstZimbabweCoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: FirstZimbabweCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2797,8 +2797,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Czecoin will not work properly.</source>
-        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Czecoin будет работать некорректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FirstZimbabweCoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, FirstZimbabweCoin будет работать некорректно.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2987,13 +2987,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=Czecoinrpc
+rpcuser=FirstZimbabweCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Czecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FirstZimbabweCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3119,13 +3119,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Czecoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Czecoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  FirstZimbabweCoin is probably already running.</source>
         <translation>Невозможно установить блокировку на рабочую директорию %s.  Возможно, бумажник уже запущен.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Czecoin</source>
-        <translation>Czecoin</translation>
+        <source>FirstZimbabweCoin</source>
+        <translation>FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3159,13 +3159,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Czecoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Czecoin</source>
-        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию Czecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FirstZimbabweCoin</source>
+        <translation>Ошибка загрузки wallet.dat: бумажник требует более новую версию FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Czecoin to complete</source>
-        <translation>Необходимо перезаписать бумажник, перезапустите Czecoin для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart FirstZimbabweCoin to complete</source>
+        <translation>Необходимо перезаписать бумажник, перезапустите FirstZimbabweCoin для завершения операции</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3234,8 +3234,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Czecoin Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Czecoin is probably already running.</source>
-        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, Czecoin уже работает.</translation>
+        <source>Unable to bind to %s on this computer. FirstZimbabweCoin is probably already running.</source>
+        <translation>Невозможно привязаться к %s на этом компьютере.  Возможно, FirstZimbabweCoin уже работает.</translation>
     </message>
     <message>
         <location line="-97"/>

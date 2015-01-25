@@ -135,7 +135,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>250</width>
+       <width>311</width>
        <height>27</height>
       </rect>
      </property>
@@ -151,7 +151,7 @@
          </font>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;Czecoin IRC Chat&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20px; font-weight:600; color:#000000;&quot;&gt;Zimbabwe First Coin IRC Chat&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>
@@ -173,14 +173,14 @@
     <widget class="QLabel" name="label">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>20</x>
        <y>280</y>
        <width>111</width>
        <height>101</height>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=https://twitter.com/Czecoin/ style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/twitter&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=https://twitter.com/ style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/twitter&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="margin">
       <number>5</number>
@@ -192,20 +192,19 @@
     <widget class="QLabel" name="label_3">
      <property name="geometry">
       <rect>
-       <x>180</x>
+       <x>130</x>
        <y>280</y>
        <width>101</width>
        <height>101</height>
       </rect>
      </property>
      <property name="text">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=https://www.facebook.com/pages/Czecoin/320152628163237 style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/face&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=https://www.facebook.com/ style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/face&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
      </property>
      <property name="openExternalLinks">
       <bool>true</bool>
      </property>
     </widget>
-    
     <widget class="QLineEdit" name="editPseudo">
      <property name="geometry">
       <rect>
@@ -222,9 +221,9 @@
     <widget class="QLabel" name="label_5">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>90</x>
        <y>160</y>
-       <width>61</width>
+       <width>71</width>
        <height>21</height>
       </rect>
      </property>
@@ -259,6 +258,54 @@
      </property>
      <property name="text">
       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Connect to IRC:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>280</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=http://www.reddit.com/ style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/reddit&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>280</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=https://www.youtube.com/ style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/youtube&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>280</y>
+       <width>101</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;a href=http://bitcointalk.org style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;&lt;img src=&quot;:/icons/forums&quot;/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="openExternalLinks">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>

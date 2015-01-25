@@ -1,17 +1,17 @@
+<h1>FirstZimbabweCoin</h1>
+<h4><i>Environmentally friendly, peer to peer digital currency</i></h4>
+<img src="http://s29.postimg.org/apqxr0es7/scroog.jpg" />
 
-Czecoin - cryptocurrency from Czech republic. 
-
-Algo: x13 PoW / PoS coin.
-
-Specification:
-- Total coins: 21 Million Total supply, 2x Citizen of Czech Republic
-- 100 Coins per PoW block
-- PoW Algorithm: X13
-- PoW + PoS Hybrid
-- PoS interest 10% Annually
-- PoS Min Stake Time: 3 Days
-- Pos Max Stake Time: Unlimited
-- 4 minute block target
-- 70 confirmations for blocks to mature
-- PoW End block: 102902
-- 1% Premine - 210000 (devs, bounties, escrow IPO)
+| Specification  | Details |
+| ------------- | ------------- |
+| Protocol  | 100% Proof-of-Stake (PoS)  |
+| Block Time  | 2 minutes |
+| Stake Block Reward  | 50,000 max  |
+| Stake  | 50,000-100,000% per year depending on difficulty  |
+| Stake Weight | 1/14 min/max days |
+| Stake Threshold | 10 days |
+| Fee | 1 Coin |
+| RPC Port  | 27210  |
+| P2P Port | 27211 |
+| Cryptographic Algorithm  | x11  |
+| Difficulty Retarget  | 16 minutes or 8 blocks |

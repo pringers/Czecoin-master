@@ -1,5 +1,4 @@
 // Copyright (c) 2013 NovaCoin Developers
-// Copyright (c) 2014 The Czecoin developers
 
 #ifndef PBKDF2_H
 #define PBKDF2_H

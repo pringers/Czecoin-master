@@ -1,6 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2014 The Czecoin developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +13,7 @@
 using namespace json_spirit;
 using namespace std;
 
-extern unsigned int nTargetSpacing;
+extern int nStakeTargetSpacing;
 
 Value getsubsidy(const Array& params, bool fHelp)
 {
@@ -22,18 +21,6 @@ Value getsubsidy(const Array& params, bool fHelp)
         throw runtime_error(
             "getsubsidy [nTarget]\n"
             "Returns proof-of-work subsidy value for the specified value of target.");
-
-    unsigned int nBits = 0;
-
-    if (params.size() != 0)
-    {
-        CBigNum bnTarget(uint256(params[0].get_str()));
-        nBits = bnTarget.GetCompact();
-    }
-    else
-    {
-        nBits = GetNextTargetRequired(pindexBest, false);
-    }
 
     return (uint64_t)GetProofOfWorkReward(0);
 }
@@ -86,7 +73,7 @@ Value getstakinginfo(const Array& params, bool fHelp)
 
     uint64_t nNetworkWeight = GetPoSKernelPS();
     bool staking = nLastCoinStakeSearchInterval && nWeight;
-    int nExpectedTime = staking ? (nTargetSpacing * nNetworkWeight / nWeight) : -1;
+    int nExpectedTime = staking ? (nStakeTargetSpacing * nNetworkWeight / nWeight) : -1;
 
     Object obj;
 
@@ -118,10 +105,10 @@ Value getworkex(const Array& params, bool fHelp)
         );
 
     if (vNodes.empty())
-        throw JSONRPCError(-9, "Czecoin is not connected!");
+        throw JSONRPCError(-9, "FirstZimbabweCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(-10, "Czecoin is downloading blocks...");
+        throw JSONRPCError(-10, "FirstZimbabweCoin is downloading blocks...");
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -230,7 +217,7 @@ Value getworkex(const Array& params, bool fHelp)
         if(coinbase.size() == 0)
             pblock->vtx[0].vin[0].scriptSig = mapNewBlock[pdata->hashMerkleRoot].second;
         else
-            CDataStream(coinbase, SER_NETWORK, PROTOCOL_VERSION) >> pblock->vtx[0]; // FIXME - HACK!
+            CDataStream(coinbase, SER_NETWORK, PROTOCOL_VERSION) >> pblock->vtx[0]; // FIXME - DRM!
 
         pblock->hashMerkleRoot = pblock->BuildMerkleTree();
 
@@ -252,10 +239,10 @@ Value getwork(const Array& params, bool fHelp)
             "If [data] is specified, tries to solve the block and returns true if it was successful.");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Czecoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "FirstZimbabweCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Czecoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "FirstZimbabweCoin is downloading blocks...");
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -396,10 +383,10 @@ Value getblocktemplate(const Array& params, bool fHelp)
         throw JSONRPCError(RPC_INVALID_PARAMETER, "Invalid mode");
 
     if (vNodes.empty())
-        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "Czecoin is not connected!");
+        throw JSONRPCError(RPC_CLIENT_NOT_CONNECTED, "FirstZimbabweCoin is not connected!");
 
     if (IsInitialBlockDownload())
-        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "Czecoin is downloading blocks...");
+        throw JSONRPCError(RPC_CLIENT_IN_INITIAL_DOWNLOAD, "FirstZimbabweCoin is downloading blocks...");
 
     if (pindexBest->nHeight >= LAST_POW_BLOCK)
         throw JSONRPCError(RPC_MISC_ERROR, "No more PoW blocks");
@@ -501,8 +488,7 @@ Value getblocktemplate(const Array& params, bool fHelp)
     result.push_back(Pair("previousblockhash", pblock->hashPrevBlock.GetHex()));
     result.push_back(Pair("transactions", transactions));
     result.push_back(Pair("coinbaseaux", aux));
-    result.push_back(Pair("coinbasevalue", (int64_t)pblock->vtx[0].vout[0].nValue + (int64_t)pblock->vtx[0].vout[1].nValue));
-    result.push_back(Pair("charityvalue", (int64_t)pblock->vtx[0].vout[0].nValue));
+    result.push_back(Pair("coinbasevalue", (int64_t)pblock->vtx[0].vout[0].nValue));
     result.push_back(Pair("target", hashTarget.GetHex()));
     result.push_back(Pair("mintime", (int64_t)pindexPrev->GetPastTimeLimit()+1));
     result.push_back(Pair("mutable", aMutable));

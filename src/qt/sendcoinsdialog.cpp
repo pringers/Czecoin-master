@@ -37,7 +37,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)"));
 #endif
 
     addEntry();
@@ -462,7 +462,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString & text)
         else if (!CBitcoinAddress(text.toStdString()).IsValid())
         {
             ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
-            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid Czecoin address"));
+            ui->labelCoinControlChangeLabel->setText(tr("WARNING: Invalid FirstZimbabweCoin address"));
         }
         else
         {

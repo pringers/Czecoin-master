@@ -34,6 +34,7 @@ int stakemaxPrevious = -1;
 QString stakecPrevious = "";
 QString rewardPrevious = "";
 
+
 void StatisticsPage::updateStatistics()
 {
     double pHardness = GetDifficulty();
@@ -44,38 +45,43 @@ void StatisticsPage::updateStatistics()
     uint64_t nMinWeight = 0, nMaxWeight = 0, nWeight = 0;
     pwalletMain->GetStakeWeight(*pwalletMain, nMinWeight, nMaxWeight, nWeight);
     uint64_t nNetworkWeight = GetPoSKernelPS();
-    int64_t volume = ((pindexBest->nMoneySupply)/100000000);
+    int64_t volume = (pindexBest->nMoneySupply);
     int peers = this->model->getNumConnections();
     pPawrate2 = (double)pPawrate;
     QString height = QString::number(nHeight);
     QString stakemin = QString::number(nMinWeight);
     QString stakemax = QString::number(nNetworkWeight);
     QString phase = "";
-    if (pindexBest->nHeight < 102902)
+    if (pindexBest->nHeight < 7200)
     {
-        phase = "X13 POW+POS";
+        phase = "POS + POW";
     }
-    else if (pindexBest->nHeight > 102902)
+    else if (pindexBest->nHeight < 1000000000)
     {
         phase = "POS";
     }
 
     QString subsidy = "";
-	if(pindexBest->nHeight < 1)
+    if(pindexBest->nHeight < 2)
     {
-		subsidy = "209900 CZECO";
+        subsidy = "500 FZC";
     }
-		else if(pindexBest->nHeight < 102902)
+		else if(pindexBest->nHeight < 10080)
     {
-		subsidy = "100 CZECO";
+        subsidy = "10 FZC";
     }
+        else if(pindexBest->nHeight < 1000000000)
+    {
+        subsidy = "0 FZC";
+    }
+    
+
     QString hardness = QString::number(pHardness, 'f', 6);
     QString hardness2 = QString::number(pHardness2, 'f', 6);
     QString pawrate = QString::number(pPawrate2, 'f', 3);
     QString Qlpawrate = model->getLastBlockDate().toString();
-
     QString QPeers = QString::number(peers);
-    QString qVolume = QLocale(QLocale::English).toString(volume);
+    QString qVolume = QLocale(QLocale::English).toString(int(volume));
 
     if(nHeight > heightPrevious)
     {
@@ -156,11 +162,11 @@ void StatisticsPage::updateStatistics()
 
     if(volume > volumePrevious)
     {
-        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " CZECO" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"green\">" + qVolume + " FZC" + "</font></b>");
     } else if(volume < volumePrevious) {
-        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " CZECO" + "</font></b>");
+        ui->volumeBox->setText("<b><font color=\"red\">" + qVolume + " FZC" + "</font></b>");
     } else {
-        ui->volumeBox->setText(qVolume + " CZECO");
+        ui->volumeBox->setText(qVolume + " FZC");
     }
     updatePrevious(nHeight, nMinWeight, nNetworkWeight, phase, subsidy, pHardness, pHardness2, pPawrate2, Qlpawrate, peers, volume);
 }

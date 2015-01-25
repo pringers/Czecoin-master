@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Czecoin</source>
-        <translation>O Czecoin</translation>
+        <source>About FirstZimbabweCoin</source>
+        <translation>O FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Czecoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Czecoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;FirstZimbabweCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;FirstZimbabweCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Czecoin developers</source>
+Copyright © 2014 The FirstZimbabweCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Czecoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši Czecoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your FirstZimbabweCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši FirstZimbabweCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Czecoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Czecoin naslova</translation>
+        <source>Sign a message to prove you own a FirstZimbabweCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva FirstZimbabweCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Czecoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim Czecoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified FirstZimbabweCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim FirstZimbabweCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>Czecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Czecoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>FirstZimbabweCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>FirstZimbabweCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Czecoin</source>
-        <translation>Pokaži informacije o Czecoin</translation>
+        <source>Show information about FirstZimbabweCoin</source>
+        <translation>Pokaži informacije o FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Czecoin address</source>
-        <translation>Pošlji kovance na Czecoin naslov</translation>
+        <source>Send coins to a FirstZimbabweCoin address</source>
+        <translation>Pošlji kovance na FirstZimbabweCoin naslov</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Czecoin</source>
-        <translation>Spremeni nastavitve za Czecoin</translation>
+        <source>Modify configuration options for FirstZimbabweCoin</source>
+        <translation>Spremeni nastavitve za FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-202"/>
-        <source>Czecoin</source>
-        <translation>Czecoin</translation>
+        <source>FirstZimbabweCoin</source>
+        <translation>FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Czecoin</source>
-        <translation>&amp;O Czecoin</translation>
+        <source>&amp;About FirstZimbabweCoin</source>
+        <translation>&amp;O FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Czecoin client</source>
-        <translation>Czecoin program</translation>
+        <source>FirstZimbabweCoin client</source>
+        <translation>FirstZimbabweCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Czecoin network</source>
-        <translation><numerusform>%n aktivne povezave na Czecoin omrežje</numerusform><numerusform>%n aktivnih povezav na Czecoin omrežje</numerusform><numerusform>%n aktivnih povezav na Czecoin omrežje</numerusform><numerusform>%n aktivnih povezav na Czecoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to FirstZimbabweCoin network</source>
+        <translation><numerusform>%n aktivne povezave na FirstZimbabweCoin omrežje</numerusform><numerusform>%n aktivnih povezav na FirstZimbabweCoin omrežje</numerusform><numerusform>%n aktivnih povezav na FirstZimbabweCoin omrežje</numerusform><numerusform>%n aktivnih povezav na FirstZimbabweCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -582,12 +582,12 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-312"/>
-        <source>About Czecoin card</source>
+        <source>About FirstZimbabweCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Czecoin card</source>
+        <source>Show information about FirstZimbabweCoin card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -667,8 +667,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Czecoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega Czecoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid FirstZimbabweCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega FirstZimbabweCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -727,8 +727,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Czecoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program Czecoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. FirstZimbabweCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program FirstZimbabweCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Czecoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven Czecoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FirstZimbabweCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven FirstZimbabweCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Czecoin-Qt</source>
-        <translation>Czecoin-Qt</translation>
+        <source>FirstZimbabweCoin-Qt</source>
+        <translation>FirstZimbabweCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Czecoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi Czecoin ob zagonu sistema.</translation>
+        <source>Automatically start FirstZimbabweCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi FirstZimbabweCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Czecoin on system login</source>
-        <translation>&amp;Zaženi Czecoin ob prijavi v sistem</translation>
+        <source>&amp;Start FirstZimbabweCoin on system login</source>
+        <translation>&amp;Zaženi FirstZimbabweCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Czecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za Czecoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the FirstZimbabweCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za FirstZimbabweCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1188,8 +1188,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Czecoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na Czecoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the FirstZimbabweCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na FirstZimbabweCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1263,8 +1263,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Czecoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu Czecoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FirstZimbabweCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu FirstZimbabweCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1278,8 +1278,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Czecoin addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza Czecoin naslovov v seznamu transakcij.</translation>
+        <source>Whether to show FirstZimbabweCoin addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza FirstZimbabweCoin naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1325,8 +1325,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Czecoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu Czecoin aplikacije</translation>
+        <source>This setting will take effect after restarting FirstZimbabweCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu FirstZimbabweCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1344,8 +1344,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Czecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z Czecoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FirstZimbabweCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z FirstZimbabweCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1560,8 +1560,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Czecoin-Qt help message to get a list with possible Czecoin command-line options.</source>
-        <translation>Prikaži Czecoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice Czecoin aplikacije</translation>
+        <source>Show the FirstZimbabweCoin-Qt help message to get a list with possible FirstZimbabweCoin command-line options.</source>
+        <translation>Prikaži FirstZimbabweCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice FirstZimbabweCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1580,13 +1580,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Czecoin - Debug window</source>
-        <translation>Czecoin - okno za odpravljanje napak</translation>
+        <source>FirstZimbabweCoin - Debug window</source>
+        <translation>FirstZimbabweCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Czecoin Core</source>
-        <translation>Czecoin jedro</translation>
+        <source>FirstZimbabweCoin Core</source>
+        <translation>FirstZimbabweCoin jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Czecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri Czecoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the FirstZimbabweCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri FirstZimbabweCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1605,8 +1605,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Czecoin RPC console.</source>
-        <translation>Dobrodošli v Czecoin RPC konzoli.</translation>
+        <source>Welcome to the FirstZimbabweCoin RPC console.</source>
+        <translation>Dobrodošli v FirstZimbabweCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1679,8 +1679,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 CZECO</source>
-        <translation>123.456 CZECO {0.00 ?}</translation>
+        <source>0.00 FZC</source>
+        <translation>123.456 FZC {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1749,8 +1749,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 CZECO</source>
-        <translation>123.456 CZECO</translation>
+        <source>123.456 FZC</source>
+        <translation>123.456 FZC</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1764,8 +1764,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Vnesite Czecoin naslov (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Vnesite FirstZimbabweCoin naslov (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1864,8 +1864,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Czecoin address</source>
-        <translation>OPOZORILO: Neveljaven Czecoin naslov</translation>
+        <source>WARNING: Invalid FirstZimbabweCoin address</source>
+        <translation>OPOZORILO: Neveljaven FirstZimbabweCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1908,8 +1908,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Naslov kamor želite poslati plačilo (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to  (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Naslov kamor želite poslati plačilo (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1938,8 +1938,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Vnesite Czecoin naslov (npr. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Vnesite FirstZimbabweCoin naslov (npr. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1962,8 +1962,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Naslov s katerim želite podpisati sporočilo (npr. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Naslov s katerim želite podpisati sporočilo (npr. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1999,8 +1999,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Czecoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Czecoin naslova</translation>
+        <source>Sign the message to prove you own this FirstZimbabweCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva FirstZimbabweCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2026,13 +2026,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Czecoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim Czecoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified FirstZimbabweCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim FirstZimbabweCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Czecoin address (e.g. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Vnesite Czecoin naslov (npr. CzecoinfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a FirstZimbabweCoin address (e.g. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Vnesite FirstZimbabweCoin naslov (npr. ZfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2052,8 +2052,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Czecoin signature</source>
-        <translation>Vnesite Czecoin podpis</translation>
+        <source>Enter FirstZimbabweCoin signature</source>
+        <translation>Vnesite FirstZimbabweCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2623,8 +2623,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Czecoin version</source>
-        <translation>Czecoin različica</translation>
+        <source>FirstZimbabweCoin version</source>
+        <translation>FirstZimbabweCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2633,7 +2633,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Czecoind</source>
+        <source>Send command to -server or FirstZimbabweCoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2653,13 +2653,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Czecoin.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: Czecoin.conf)</translation>
+        <source>Specify configuration file (default: FirstZimbabweCoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: FirstZimbabweCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Czecoind.pid)</source>
-        <translation>Določi pid datoteko (privzeto: Czecoin.pid)</translation>
+        <source>Specify pid file (default: FirstZimbabweCoind.pid)</source>
+        <translation>Določi pid datoteko (privzeto: FirstZimbabweCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2808,8 +2808,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Czecoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno Czecoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FirstZimbabweCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno FirstZimbabweCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2998,24 +2998,24 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=Czecoinrpc
+rpcuser=FirstZimbabweCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Czecoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FirstZimbabweCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
 Priporočeno je, da uporabite naslednje naključno geslo:
-rpcuser=Czecoinrpc
+rpcuser=FirstZimbabweCoinrpc
 rpcpassword=%s
 (tega gesla si vam ni potrebno zapomniti)
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot;Czecoin Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot;FirstZimbabweCoin Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3140,13 +3140,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;Czecoin Alarm&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Czecoin is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija Czecoin je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  FirstZimbabweCoin is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija FirstZimbabweCoin je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Czecoin</source>
-        <translation>Czecoin</translation>
+        <source>FirstZimbabweCoin</source>
+        <translation>FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;Czecoin Alarm&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Czecoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo Czecoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FirstZimbabweCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo FirstZimbabweCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Czecoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite Czecoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart FirstZimbabweCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite FirstZimbabweCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;Czecoin Alarm&quot; admin@foo.co
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Czecoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča Czecoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. FirstZimbabweCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča FirstZimbabweCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>
